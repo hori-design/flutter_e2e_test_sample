@@ -1,0 +1,10 @@
+type AuthToken {
+  accessToken: String!
+  refreshToken: String
+  expiresIn: Int!
+}
+
+input LoginInput {
+  id: ID!
+  password: String!
+}

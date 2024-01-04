@@ -1,5 +1,9 @@
 include: package:pedantic_mono/analysis_options.yaml
 
+analyzer:
+  exclude:
+    - lib/__generated/**
+
 linter:
   rules:
     always_use_package_imports: true
